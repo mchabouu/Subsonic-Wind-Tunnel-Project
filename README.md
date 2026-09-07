@@ -14,7 +14,7 @@ This repository documents our design process, construction progress, future elec
 
 Current work includes:
 
-- Full Wind tunnel structure assembled
+- Full wind tunnel structure assembled
 - Diffuser, test, and contraction sections constructed
 - Airflow components being integrated
 - Electronics and sensing structure is complete
