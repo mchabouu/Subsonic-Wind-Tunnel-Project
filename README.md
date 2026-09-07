@@ -14,11 +14,10 @@ This repository documents our design process, construction progress, future elec
 
 Current work includes:
 
-- Construction and assembly of the wind tunnel structure
-- Fabrication of the test section and surrounding components
-- Integration of airflow components
-- Ongoing mechanical improvements and finishing
-- Planning for electronic sensing and data collection
+- Full Wind tunnel structure assembled
+- Diffuser, test, and contraction sections constructed
+- Airflow components being integrated
+- Electronics and sensing structure is complete
 
 Photos of the build process can be found in the `images/` directory.
 
@@ -36,9 +35,9 @@ Planned functionality and sensor integration will be documented as the project d
 
 ## Future Work
 
-- Complete the remaining mechanical construction
+- Complete the remaining mechanical integration
 - Integrate electronics and sensors
-- Develop Arduino code
+- Finish Arduino code
 - Perform initial airflow testing
 - Collect and analyze experimental data
 - Document final results and design improvements
