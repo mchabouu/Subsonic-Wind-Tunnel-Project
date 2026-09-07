@@ -1,0 +1,43 @@
+# Wind Tunnel Structure
+
+Our subsonic wind tunnel is based on James P. K. Wadhwani's open-circuit design and consists of three primary airflow sections: the **contraction cone**, **test section**, and **diffuser**. Together, these sections accelerate, condition, test, and then decelerate the airflow as it moves through the tunnel.
+
+## Contraction Cone
+
+The **contraction cone** is located at the front of the wind tunnel. Its purpose is to take air entering through a large cross-sectional area and gradually force it through a smaller area before it reaches the test section.
+
+The structure is primarily constructed from **wood/plywood panels**. At the entrance, the reference design also uses **plastic honeycomb mesh, stainless-steel wire mesh, and fine window screening** as a settling system. These layers help straighten the incoming airflow and break up larger turbulent eddies before the air enters the contraction.
+
+The contraction works partly through the **continuity principle**. For approximately incompressible, low-speed airflow,
+
+$$
+A_1v_1=A_2v_2
+$$
+
+where \(A\) is cross-sectional area and \(v\) is air velocity. Therefore, as the area decreases, the air velocity increases. The gradual shape also helps produce a more uniform flow entering the test section.
+
+## Test Section
+
+The **test section** is the central portion of the wind tunnel where the test subject is placed. In Wadhwani's design, it has an approximately **10 in × 10 in cross section** and follows the contraction cone.
+
+A transparent material such as **Plexiglas/acrylic** is useful for the test section because it allows the object and airflow behavior to remain visible during testing. The reference construction uses a Plexiglas test section supported by a wooden structure.
+
+The **test subject** can eventually be an airfoil, wing section, or another object whose aerodynamic behavior we want to investigate. When air moves around the object, differences in airflow and pressure create aerodynamic forces such as **lift** and **drag**. Future versions of our wind tunnel are intended to use Arduino-connected sensors to help measure these effects.
+
+Keeping the test subject relatively small compared with the cross-sectional area is important because an oversized model can obstruct the tunnel and alter the airflow itself. Wadhwani noted this effect when testing a relatively large flat plate in his original tunnel.
+
+## Diffuser
+
+The **diffuser** is located downstream of the test section and gradually increases in cross-sectional area as the air approaches the fan. In the reference design, it is constructed primarily from approximately **4-foot-long plywood panels**, with metal reinforcement brackets used to strengthen the structure.
+
+The diffuser essentially performs the opposite function of the contraction cone. As its cross-sectional area increases, the airflow slows down. This allows some of the airflow's **static pressure to recover** before the air leaves the tunnel.
+
+This behavior can be understood using **Bernoulli's principle**: in simplified steady airflow, higher velocity is associated with lower static pressure, while decreasing the velocity can allow static pressure to rise. A gradual diffuser is important because expanding the tunnel too rapidly can cause the airflow to separate from the walls, creating additional turbulence.
+
+## Overall Airflow
+
+The overall process can be summarized as:
+
+**Room Air → Settling Screens → Contraction Cone → Test Section & Test Subject → Diffuser → Fan**
+
+The contraction cone produces faster, more uniform airflow for testing, the test section provides a controlled region for observing aerodynamic behavior, and the diffuser slows the air and recovers pressure before it reaches the exhaust fan.
